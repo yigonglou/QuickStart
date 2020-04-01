@@ -11,7 +11,7 @@ public class TestNGTest {
 	public void main(String[] avgs)
 	{
 		
-		
+	   
 		AppTest("my add test");
 		
 		
