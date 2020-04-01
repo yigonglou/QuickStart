@@ -18,6 +18,7 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        System.out.println("Test Name " + testName);
     }
 
     /**
@@ -25,14 +26,18 @@ public class AppTest
      */
     public static Test suite()
     {
+
+    	System.out.println("Test Class " + AppTest.class.toString());
         return new TestSuite( AppTest.class );
     }
 
     /**
      * Rigourous Test :-)
      */
+   
     public void testApp()
     {
-        assertTrue( true );
+    	System.out.println("testApp ...");
+        assertTrue( false );
     }
 }
